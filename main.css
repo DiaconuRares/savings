@@ -81,7 +81,7 @@ body {
     margin: 0;
     display: flex;
     height: 100%;
-    width: 100%;
+    width: auto;
     overflow: auto;
 }
 
@@ -129,4 +129,29 @@ body {
     background-color: tan;
     margin: calc(2vw + 10px);
     margin-top: calc(2.5vw + 15px);
+}
+
+.wrapper1 {
+    padding: calc(1.5vw + 20px);
+    background-image: url(bkg3.jpg);
+    background-size: cover;
+    background-position: left;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: coral;
+    font-size: calc(1.5vw + 10px);
+    opacity: 0.6;
+}
+
+.wrapper1>.heading {
+    align-self: center;
+    color: cadetblue;
+    font-family: sans-serif;
+    font-size: calc(1.5vw + 15px);
+}
+
+.wrapper1>div>.list {
+    list-style-type: none;
+    font-family: monospace;
+    color: white;
 }
