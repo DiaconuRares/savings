@@ -155,3 +155,52 @@ body {
     font-family: monospace;
     color: white;
 }
+
+.wrapper2 {
+    background-image: url(bkg4.png);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: calc(1.5vw + 15px);
+    padding: calc(2.5vw + 35px);
+}
+
+.wrapper2>form {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper2>form>.text {
+    margin-top: calc(1.5vw + 20px);
+    font-family: cursive;
+}
+
+.wrapper2>form>input {
+    font-size: calc(1vw + 10px);
+    font-family: monospace;
+    border: 2.5px solid white;
+    border-radius: 15px;
+    background-color: #101010;
+    color: dodgerblue;
+    outline: none;
+    padding: calc(0.5vw + 5px);
+    width: 45%;
+    align-self: center;
+}
+
+.wrapper2>.heading {
+    font-family: sans-serif;
+    font-size: calc(1.5vw + 20px);
+}
+
+.wrapper2>form>.btn {
+    margin-top: 2vw;
+    padding: 2vw;
+    width: 10vw;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
